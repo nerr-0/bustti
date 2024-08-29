@@ -1,0 +1,34 @@
+/*--------header styles------*/
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(85, 85, 240);/*subject to change*/
+}
+.header-navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.header-navbar a{
+    text-decoration: none;
+    color: white;/*to be checked later*/
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+
+
+
+/*--------footer styles------*/
+.footer-top, .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(31, 35, 53);/*subject to change*/
+    padding: 40px;
+
+}
+.footer-logo, .footer-contact, .footer-location, .footer-resources {
+    padding: 10px;
+}

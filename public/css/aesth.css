@@ -1,0 +1,11 @@
+/*contains extra css code for buttons, links, etc*/
+.home-page-buttons button, .fourth-page-left button{
+    /* size: 60px; */
+    border-radius: 50px;
+    padding: 40px;
+    margin: 20px;
+    width: 200px;
+}
+.home-page-main h1{
+    font-size: 70px;
+}
