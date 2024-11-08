@@ -5,7 +5,15 @@
     padding: 40px;
     margin: 20px;
     width: 200px;
+    border: none;
+    background-color: #004e98;
+    
 }
 .home-page-main h1{
     font-size: 70px;
+    color: white;
+}
+.btns{
+    color: white;
+    font-size: 20px;
 }
