@@ -5,8 +5,8 @@
     padding: 40px;
     margin: 20px;
     width: 200px;
-    border: none;
-    background-color: #004e98;
+    border: 1px solid var(--primary-color);
+    /* background-color: none;  */
     
 }
 .home-page-main h1{

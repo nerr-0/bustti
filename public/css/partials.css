@@ -1,3 +1,7 @@
+/* root styling */
+:root{
+    --primary-color: #32589c
+}
 /*--------header styles------*/
 .header-navbar{
     display: flex;

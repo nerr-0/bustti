@@ -1,8 +1,12 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: #c0d6d2;
+    /* background-color: #c0d6d2; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* root styling */
+:root{
+    --primary-color : #32589c
 }
 /*--------home page main------*/
 .home-page-main{
@@ -16,20 +20,21 @@ body{
 .home-second-page{
     display: flex;
     height: 100vh;
+    background-color: var(--primary-color);
 }
 .second-page-left{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 20px;    
-    width: 45%;
+    /* width: 45%; */
 }
 .second-page-left h2{
-   color: #85786a;
+   color: #ffffff;
 }
 .second-page-left h1{
     font-size: 80px;
-    color: #004e98;
+    color: #ffffff; 
 }
 
 .second-page-images{
@@ -51,6 +56,7 @@ body{
 .third-page-top h1{
     padding: 20px;
     font-size: 50px;
+    color: var(--primary-color);
 }
 
 .student-life-page{
@@ -70,7 +76,7 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     padding: 10px;
-    height: 50%;
+    height: 60%;
     width: 100vw;
     border-radius: 20px;    
 }
@@ -85,9 +91,17 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 100vh;
+    background-color: var(--primary-color);
+    
 }
 .fourth-page-left{
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    /* background-color: yellow; */
+    height: 95%;
 }
 .fourth-page-right, .second-page-right{
     display: flex;
@@ -95,9 +109,9 @@ body{
     flex-wrap: wrap;
     padding: 40px;
     gap: 20px;
-    background-color: #004e98;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
+    /* background-color: #004e98; */
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
 }
 .fourth-page-images{
     background-image: url("../images/bushlogo.jfif");
@@ -135,7 +149,7 @@ body{
     width: 30%;
 }
 .fifth-top{
-    background-color:#004e98;
+    background-color:var(--primary-color);
     display: flex;
     justify-content: center;
     border-top-left-radius: 10px;
