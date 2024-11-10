@@ -2,11 +2,11 @@
 .home-page-buttons button, .fourth-page-left button{
     /* size: 60px; */
     border-radius: 50px;
-    padding: 40px;
+    padding: 30px;
     margin: 20px;
     width: 200px;
-    border: 1px solid var(--primary-color);
-    /* background-color: none;  */
+    border: 2px solid var(--primary-color);
+    /* background-color: var(--button-bg);  */
     
 }
 .home-page-main h1{
@@ -14,6 +14,12 @@
     color: white;
 }
 .btns{
-    color: white;
+    color: var(--heading-std);
+    font-size: 20px;
+    background-color: var(--primary-color);
+}
+.white-btns{
+    color: var(--primary-color);
+    background-color: var(--heading-std);
     font-size: 20px;
 }

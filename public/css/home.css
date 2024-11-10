@@ -6,7 +6,10 @@ body{
 }
 /* root styling */
 :root{
-    --primary-color : #32589c
+    --primary-color : #32589c;
+    --button-bg: #85786a;
+    --heading-std: #ffff;
+    /* --cards-std: #ffc03d; */
 }
 /*--------home page main------*/
 .home-page-main{
@@ -27,14 +30,15 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     padding: 20px;    
-    /* width: 45%; */
+    width: 50%;
+    /* height: 100vh; */
 }
-.second-page-left h2{
-   color: #ffffff;
+.second-page-left h2, .fourth-page-left h2{
+   color: var(--heading-std);
 }
 .second-page-left h1{
     font-size: 80px;
-    color: #ffffff; 
+    color: var(--heading-std); 
 }
 
 .second-page-images{
@@ -99,9 +103,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 20px;
+    /* gap: 20px; */
     /* background-color: yellow; */
     height: 95%;
+    width: 50%;
 }
 .fourth-page-right, .second-page-right{
     display: flex;
@@ -124,6 +129,10 @@ body{
     width: 40%;
     overflow: hidden;
     border-radius: 20px;    
+}
+.fourth-page-images span{
+    font-weight: bold;
+    /* color: var(--cards-std); */
 }
 .engineering{
    
@@ -155,11 +164,14 @@ body{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.fifth-top h3{
+    color: var(--heading-std);
+}
 .fifth-bottom{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(214, 235, 241, 0.822);
+    background-color: rgba(214, 235, 241, 0.822); /* subject to change */
     padding: 40px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
