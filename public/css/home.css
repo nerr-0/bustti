@@ -17,7 +17,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center; 
+    background-image: url("../images/mainimage.jfif");   
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 /*------second page------*/
 .home-second-page{
